@@ -12,4 +12,4 @@ and press save butto.
 it calculate your saving and show it .
 and also show your remaining balance.
 
-NOTE : cant send negetive number, and also able to calculate if your income is less than to your expence show a basic notification.
+NOTE : can't send negetive number, and also able to calculate if your income is less than to your expence show a basic notification.
