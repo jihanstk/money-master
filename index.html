@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>money master</title>
+  </head>
+  <body>
+  
+
+    <div class="container">
+        <div class="row">
+            <h1 class="text-center my-5">Money Master 1.0</h1>
+            <div class="col-md-6">
+                <img class="img-fluid" src="./money.jpeg" alt="">
+            </div>
+            <div class="col-md-6 text-center">
+              <div class="mb-2">
+                <h3>Income</h3>
+                <input id="income" type="text" placeholder="Your Salary" class="d-block w-50 p-2 mb-5 mx-auto">
+                
+              </div>
+              <div class="mb-2 text-center mx-auto">
+                <h4>Expencess</h4>
+                <input id="food" type="text" placeholder="Your Food" class="d-block w-50 p-2 mx-auto mb-3">
+                <input id="rent" type="text" placeholder="Your Rent" class="d-block w-50 p-2 mx-auto mb-3">
+                <input id="clothe" type="text" placeholder="Your Clothes" class="d-block w-50 mb-3 mx-auto p-2">
+                <button id="calculate" class="btn btn-primary">Calculate</button>
+              </div>
+              <div class="mb-2 mt-5 text-center mx-auto">
+               <h3>total Expencess: <span id="expence"></span></h3>
+               <h3>Balance: <span id="balance"></span></h3>
+              </div>
+              <div class="mb-2 text-center mx-auto">
+
+                <input id="saving" type="text" placeholder="How % You Want To Save? " 
+                class=" w-50 mb-3 mx-auto p-2"><button id="saving-calculte" class="btn btn-secondary px-4 py-2 ms-1">Save</button>
+
+                
+              </div>
+              <div class="mb-2 text-center mx-auto">
+                <h3>Saving Ammount: <span id="saving-ammount"></span></h3>
+               <h3>Remaining Ammount: <span id="Remaining-ammount"></span></h3>
+              </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <script src="./script.js"></script>
+
+  </body>
+</html>
